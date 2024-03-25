@@ -14,10 +14,4 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "Multi Module"
-include(":app")
-include(":features:home")
-include(":features:catalogue")
-include(":commons:common_kotlin")
-include(":commons:common_android")
-include(":core:network")
-include(":core:analytics")
+apply("./config/config_main.gradle")
