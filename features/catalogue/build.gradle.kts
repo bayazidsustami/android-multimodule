@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.catalogues.home"
+    namespace = "com.example.features.catalogue"
     compileSdk = 34
 
     defaultConfig {

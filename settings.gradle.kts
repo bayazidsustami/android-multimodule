@@ -15,4 +15,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "Multi Module"
 include(":app")
-include(":feature:home")
+include(":features:home")
+include(":features:catalogue")
