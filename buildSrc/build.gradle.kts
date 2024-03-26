@@ -18,5 +18,10 @@ gradlePlugin {
             id = "base-main-plugin"
             implementationClass = "com.example.modules.plugins.AppMainPlugin"
         }
+
+        register("base-compose-plugin") {
+            id = "base-compose-plugin"
+            implementationClass = "com.example.modules.plugins.ComposePlugin"
+        }
     }
 }
