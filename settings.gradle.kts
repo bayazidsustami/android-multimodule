@@ -13,11 +13,9 @@ dependencyResolutionManagement {
     }
 }
 
+// select configs as needed
 rootProject.name = "Multi Module"
-include(":app")
-include(":features:home")
-include(":features:catalogue")
-include(":commons:common_kotlin")
-include(":commons:common_android")
-include(":core:network")
-include(":core:analytics")
+apply("./config/config_main.gradle")
+//apply("./config/config_feature_home.gradle")
+//apply("./config/config_feature_checkout.gradle")
+//apply("./config/config_feature_catalogue.gradle")

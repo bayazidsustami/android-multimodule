@@ -1,0 +1,7 @@
+include(":demoapp")
+include(":features:checkout")
+include(":common_features:common_features_checkout")
+include(":commons:common_kotlin")
+include(":commons:common_android")
+include(":core:network")
+include(":core:analytics")
