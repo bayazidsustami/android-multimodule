@@ -1,6 +1,7 @@
 include(":app")
 include(":features:home")
 include(":features:catalogue")
+include(":features:checkout")
 include(":commons:common_kotlin")
 include(":commons:common_android")
 include(":core:network")
