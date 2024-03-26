@@ -1,3 +1,5 @@
+package com.example.modules
+
 object Version {
     const val androidGradlePlugin = "8.2.2"
     const val kotlin = "1.9.0"

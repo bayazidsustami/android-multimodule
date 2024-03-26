@@ -1,3 +1,5 @@
+package com.example.modules
+
 object Dependency {
 
     const val coreKtx = "androidx.core:core-ktx:${Version.coreKtx}"
